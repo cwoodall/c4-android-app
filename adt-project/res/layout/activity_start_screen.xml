@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:android1="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android1:background="@drawable/background" >
+ 
+    <Button
+        android1:id="@+id/exit1"
+        android1:layout_width="100dp"
+        android1:layout_height="50dp"
+        android1:layout_alignLeft="@+id/TwoPlayer"
+        android1:layout_below="@+id/TwoPlayer"
+        android1:layout_marginTop="29dp"
+        android1:text="@string/Exit"
+        android1:textColor="#000000" />
+
+    <Button
+        android1:id="@+id/SinglePlayer"
+        android1:layout_width="100dp"
+        android1:layout_height="50dp"
+        android1:layout_alignLeft="@+id/TwoPlayer"
+        android1:layout_below="@+id/game_name"
+        android1:layout_marginTop="38dp"
+        android1:text="@string/SinglePlayer" 
+        android1:textColor="#000000"/>
+
+    <TextView
+        android1:id="@+id/game_name"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentTop="true"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="53dp"
+        android1:text="@string/game_name"
+        android1:textAppearance="?android:attr/textAppearanceLarge"
+        android1:textColor="#FFFFFF"
+        android1:textSize="40sp" />
+
+    <Button 
+        android1:id="@+id/TwoPlayer"
+        android1:layout_width="100dp"
+        android1:layout_height="50dp"
+        android1:layout_below="@+id/SinglePlayer"
+        android1:layout_centerHorizontal="true"
+        android1:layout_marginTop="33dp"
+        android1:text="@string/TwoPlayer" 
+        android1:textColor="#000000"/>
+
+</RelativeLayout>
